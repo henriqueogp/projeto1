@@ -7,7 +7,8 @@ def home(request):
     # defined in recipes.apps, must be added to the INSTALLED_APPS list in
     # projeto.settings in order for Django to look for the template file
     # ('home.html') inside the recipes directory.
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/home.html',
+                  context={'name': 'Henrique de Oliveira'})
 
 
 def contact(request):
