@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # The following string ('recipes') comes from the name attribute in the
+    # RecipesConfig class, defined in recipes.apps.
+    'recipes'
 ]
 
 MIDDLEWARE = [
