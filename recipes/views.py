@@ -9,7 +9,3 @@ def home(request):
     # ('home.html') inside the recipes directory.
     return render(request, 'recipes/home.html',
                   context={'name': 'Henrique de Oliveira'})
-
-
-def contact(request):
-    return HttpResponse('Contact info')
